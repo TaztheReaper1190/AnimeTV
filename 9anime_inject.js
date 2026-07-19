@@ -1,0 +1,40 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.amarullz.androidtv.animetvjmto'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.amarullz.androidtv.animetvjmto"
+        minSdk 29
+        targetSdk 33
+        versionCode 113
+        versionName "1.1.3"
+
+        // Automatic Build Version
+        buildConfigField "long", "TIMESTAMP", System.currentTimeMillis() + "L"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.leanback:leanback:1.0.0'
+    implementation 'com.github.bumptech.glide:glide:4.16.0'
+
+    implementation 'androidx.tvprovider:tvprovider:1.0.0'
+
+    implementation 'com.google.android.gms:play-services-cronet:18.0.1'
+    implementation 'org.jsoup:jsoup:1.16.1'
+    implementation 'com.devbrackets.android:exomedia:5.0.0'
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0"
+}

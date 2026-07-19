@@ -1,3 +1,6 @@
-First off Disclaimer. this is not my work this work is amarullz work. so all credits go to him and all his mods for carrying this wonderful app through 2026!!!
-AnimeTV for Android-TV & Windows
-
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+  </component>
+</project>
