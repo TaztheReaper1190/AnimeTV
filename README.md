@@ -1,4 +1,4 @@
-# AnimeTV for Android TV & Google TV
+# AnimeTV for Android/Google TV & Windows
 
 AnimeTV is Android TV application for watching your favorite anime series and movies on your Android TV, It also runs on non-TV Android devices (Phones and Tablets) with some UI limitations.
 
@@ -28,20 +28,14 @@ AnimeTV is Android TV application for watching your favorite anime series and mo
 - Support for Android TV / Google TV home list and PlayNext
 - All Watchlist & History is saved locally – I don’t have any server to save your watch & history 🤣 So don’t worry.
 
-## WebView Based?
-Yes, it was webview based application. UI and Data Fetch Method is using webview, because I don't have access to *source website* database, I just load the web in headless webview and fetch site data info with javascript injection, because it's not possible to use only http client to get data.
-
-Almost all data need javascript to make it available (It's not pure HTML that can easily parsed from text). The site also use **QUIC** rather than HTTP1X, so I need to include **CronetEngine** to make it works.
-
-But the good news is **AnimeTV** will block any analytics and ads domain (dns) when requesting & fetching data. All data like watchlist & watch history also stored local in **localStorage**.
-
 ## Screenshot
-More screenshot is available in my website: https://amarullz.com/2023/09/02/animetv-for-android-tv-google-tv/
 Here only a couple screenshot:
 
-![Main Home Screen](https://amarullzcom.files.wordpress.com/2023/09/01-home.jpg)
+![Main Home Screen](https://drive.google.com/uc?id=1-tRKxZH8Cj7ZPXMgvla7PUY9MekgLu5N)   
 
-![Play Info](https://amarullzcom.files.wordpress.com/2023/09/07-play-info.jpg)
+![Mini Preview](https://drive.google.com/uc?id=1zNxVT4IIq2E84IqlYjty9PBXHPmhQS1W)   
+
+![Playing](https://drive.google.com/uc?id=15IEkqTfFw04ZGwD1ZGUPQsnVO33Ti7Qz)   
 
 ## License
 **Copyright 2023 Ahmad Amarullah (https://amarullz.com)**
