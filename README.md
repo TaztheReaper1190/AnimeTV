@@ -37,6 +37,9 @@ Here only a couple screenshot:
 
 ![Playing](https://drive.google.com/uc?id=15IEkqTfFw04ZGwD1ZGUPQsnVO33Ti7Qz)   
 
+## DISCLAIMER 
+This project is not my own im just hosting the latest of ANIMETV all credits go to Amarullz and his mods for carrying our anime itch in 2026!!
+
 ## License
 **Copyright 2023 Ahmad Amarullah (https://amarullz.com)**
 
