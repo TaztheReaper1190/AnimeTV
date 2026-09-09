@@ -27,7 +27,7 @@ AnimeTV is Android TV application for watching your favorite anime series and mo
 - Multiple video server
 - Support for Android TV / Google TV home list and PlayNext
 - All Watchlist & History is saved locally – I don’t have any server to save your watch & history 🤣 So don’t worry.
-
+- Now movies/tvshow available. A all in 1 app
 ## Screenshot
 Here only a couple screenshot:
 
